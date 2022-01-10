@@ -1,0 +1,16 @@
+df查看每個分割區的情況
+df+參數ex:df -h 習慣的單位
+du -h -s /home/user 資料夾下的所有資料夾大小
+最後一個顯示所有大小的和(-s)精要
+du -sh /home/user 1> result.txt寫到txt檔內 1是預設值
+du -sh /home/user 2> xxx.txt 2是錯誤內容寫道txt內
+標準輸入（standard input，代碼為 0）：程式執行所需要的輸入資料。
+標準輸出（standard output，代碼為 1）：程式正常執行所產生的輸出資料。
+標準錯誤輸出（standard error output，代碼為 2）：程式出錯時通知使用者用的訊息，或是呈現程式狀態用的訊息。
+https://blog.gtwang.org/linux/linux-io-input-output-redirection-operators/
+which 搜尋執行檔
+locate
+find到硬碟一個一個搜尋
+https://blog.gtwang.org/linux/unix-linux-find-command-examples/
+
+第五章

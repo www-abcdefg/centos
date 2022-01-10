@@ -1,0 +1,8 @@
+https://blog.gtwang.org/linux/linux-grep-command-tutorial-examples/
+https://codertw.com/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80/424418/
+ls | grep x 搜尋結果的輸出
+grep a a.txt 在檔案裏面搜尋有a的結果(完全匹配不會出現A)
+-i 忽略大小寫
+-v 扣掉
+找字母要加" ex "[a-z]"
+http://linux.vbird.org/linux_basic/0310vi/0310vi.php

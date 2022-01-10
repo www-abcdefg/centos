@@ -1,0 +1,24 @@
+腳本程式
+#!/uer/bin/bush
+cd/home
+在家目錄下
+home/user
+不會切換
+bash test.sh
+./test.sh
+會切換到家目錄
+soure test.sh
+. test.sh
+第九章
+系統排程
+cronjob跟時間有空
+管理者主要工作
+	系統正常運作
+
+5個9的保證99.999%
+
+var/log/httpd
+access_log
+intitle Hacker by被駭客攻陷的網站
+
+yum install httpd

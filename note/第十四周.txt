@@ -1,0 +1,23 @@
+ps 觀察行程
+-f 只能看到自己
+PPID == parent process ID
+```
+bash
+ps-f
+bash 2360
+bash 2857(parent)
+```
+系統行程ps -ef
+top 互動工具(觀察行程)
+yum install epel-release
+yun install htop
+htop
+kill -9強制刪除
+pkill sshd 可為名稱
+killall -9 +name
+kill (後面必須為行程ID)
+cat /proc/sys/net/ipv4/ip_forward
+出現0 沒有路由功能
+設為1 有路由功能
+proc可寫
+8章

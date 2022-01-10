@@ -1,0 +1,28 @@
+[iptables](https://www.hostinger.com/tutorials/iptables-tutorial?fbclid=IwAR3E7HSE2AJ2RRvYFJ7LAexN2_M8Uw1e0KLkhYnocpOB7VunsPmmIdnaPlU)
+介面卡3(第2個linux需要介面卡4)
+網路
+   內部網路(intnate1~3)
+設定第一台linux
+ 介面卡3網路卡ipV4為192.168.1.1 255.255.255.0
+su
+ip route delete default
+ip route add default via 192.168.1.2
+curl http://192.168.2.1/hi.htm
+第2台linux 
+ 介面卡3網路卡為192.168.1.2 255.255.255.0	
+ 介面卡4網路卡為192.168.2.2 255.255.255.0
+echo >1/proc/sys/net/ipv4/ip_forward
+iptables -A OUTPUT -p tcp -dport 80 -j DROP阻擋7-2到7-1資料(OUTPUT=FORWARD阻擋7到7-1資料)
+
+第三台linux
+ 介面卡3網路卡為192.168.1.2 255.255.255.0	
+su
+ip route delete default
+ip route add default via 192.168.2.2
+cd/var/www/html
+ecgo "hi" >hi.htm
+systemctl  start httpd
+systemctl stop firewalld
+systemctl  status firewalld
+iptables -A INPUT -s 192.168.1.0/24-j DROP
+[檔案壓縮](http://note.drx.tw/2008/04/command.html)

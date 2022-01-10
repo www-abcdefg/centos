@@ -1,0 +1,15 @@
+[時區](https://www.hanktsai.com/2021/01/configure-ubuntu1804-timezone.html)
+查看時區 timedatectl
+查看時區名稱 timedatectl list-timezones
+修改時區 sudo timedatectl set-timezone 要修改的時區名稱
+ex: sudo timedatectl set-timezone Asia/Tokyo
+顯示linux 時間 date 
+看時間格式 date +%Y%m%d
+%H  時
+%M  分
+%S  秒
+%Y  年
+%m  月
+%d  日
+touch `date +%Y%m%d 等於 touch $(date +%Y%m%d)
+-> touch 20210615
