@@ -7,7 +7,7 @@
 * ip netns exec net1 ifconfig lo up 啟動
 * veth pair對稱的虛擬網路卡
 
-![pic]()
+![pic](https://github.com/www-abcdefg/centos/blob/main/linux3%E8%87%AA%E5%8B%95%E5%8C%96%E9%81%8B%E7%B6%AD/pic/week3/pic1.png)
 
 * ip link add type veth 建立網路卡
 * ifconfig -a 剛該使創造網路卡預設是未開啟的
@@ -52,7 +52,7 @@ firefox
 * 多个不同 namespace 之间的通信
 * brctl addbr br0創造橋接器
 
-![pic2]()
+![pic2](https://github.com/www-abcdefg/centos/blob/main/linux3%E8%87%AA%E5%8B%95%E5%8C%96%E9%81%8B%E7%B6%AD/pic/week3/pic2.png)
 
 ```
 ip netns add net0
