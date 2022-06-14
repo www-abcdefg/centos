@@ -101,5 +101,7 @@ date -s 20220101
 第一台
 ansible servers -m command -a "date"
 ```
-
+## 參考資料
+* [【prometheus系列】7、pushgateway自定义脚本采集监控数据](https://blog.51cto.com/root/3033785?fbclid=IwAR06ObY0syddsSDbCUMLZNMrzSASOFWzxjWMok6fI-ribJd3MsXFWictVDY)
+* [太厲害了，終於有人能把Ansible講的明明白白了，建議收藏](https://tw511.com/a/01/32123.html)
 

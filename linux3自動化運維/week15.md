@@ -61,3 +61,5 @@ ansible server1 -m stat -a "path=a.txt"
 ansible server1 -m yum -a "name=httpd state=latest"
 ansible server1 -m yum -a "name=httpd state=absent"
 ```
+## 參考資料
+* [太厲害了，終於有人能把Ansible講的明明白白了，建議收藏](https://tw511.com/a/01/32123.html)
