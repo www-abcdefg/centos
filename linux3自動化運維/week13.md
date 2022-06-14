@@ -62,10 +62,10 @@ crontab -l
 * 左側+的符號選到Dashboard -> add a new panel
 * 找到 Data source選擇 Prometheus如下圖
 
-![Grafana繪圖]()
+![Grafana繪圖](https://github.com/www-abcdefg/centos/blob/main/linux3%E8%87%AA%E5%8B%95%E5%8C%96%E9%81%8B%E7%B6%AD/pic/grafana%E7%B9%AA%E5%9C%96.png)
 
 * 找到query的Meteics browser 輸入 httpd_status_centos7_2 在案Run query 
 
-![Grafana繪圖1]()
+![Grafana繪圖1](https://github.com/www-abcdefg/centos/blob/main/linux3%E8%87%AA%E5%8B%95%E5%8C%96%E9%81%8B%E7%B6%AD/pic/grafana%E7%B9%AA%E5%9C%961.png)
 
 * 點選save進行儲存 就可形成圖表

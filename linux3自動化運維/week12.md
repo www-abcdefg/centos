@@ -24,9 +24,10 @@ systemctl start node_exporter
     * st：虛擬機管理程序使用的cpu時間
 
 ## Grafana(繪圖報紙)
-* 開啟瀏覽器輸入http://IP:3000登入，預設的帳號密碼都是admin
+* 開啟瀏覽器輸入http://IP:3000登入
+    * 預設的帳號密碼都是admin
 
-![grafana]()
+![grafana](https://github.com/www-abcdefg/centos/blob/main/linux3%E8%87%AA%E5%8B%95%E5%8C%96%E9%81%8B%E7%B6%AD/pic/grafana.png)
 ```
 cd /etc/yum.repos.d/
 gedit grafana.repo
@@ -50,11 +51,11 @@ systemctl status grafana-server
 * 先點左側齒輪(configuration)
 * 再點選Add data source
 
-![Grafana1]()
+![Grafana1](https://github.com/www-abcdefg/centos/blob/main/linux3%E8%87%AA%E5%8B%95%E5%8C%96%E9%81%8B%E7%B6%AD/pic/grafana1.png)
 
 * 點選Prometheus
 
-![Grafana2]()
+![Grafana2](https://github.com/www-abcdefg/centos/blob/main/linux3%E8%87%AA%E5%8B%95%E5%8C%96%E9%81%8B%E7%B6%AD/pic/grafana2.png)
 
 * 在http 的URL 輸入http://192.168.56.101:9090(其他皆為預設)
 * 點選 save&test 確定是否成功

@@ -27,14 +27,14 @@ gedit /etc/hosts
 ```
 ## prometheus
 
-![prometheus pic]()
+![prometheus pic](https://github.com/www-abcdefg/centos/blob/main/linux3%E8%87%AA%E5%8B%95%E5%8C%96%E9%81%8B%E7%B6%AD/pic/week11.png)
 
 * 在第一台機器下載prometheus
     * 從user目錄 進入Downloads
     * 創造prometheus 群組
     * 創造prometheus
     * 去搜尋引擎輸入ip ex 192.168.56.101:9090
-    ![pic]()
+    ![pic](https://github.com/www-abcdefg/centos/blob/main/linux3%E8%87%AA%E5%8B%95%E5%8C%96%E9%81%8B%E7%B6%AD/pic/week11-1.png)
 
 ```
 cd Downloads/

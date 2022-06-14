@@ -49,7 +49,7 @@ DavLockDB /var/www/html/DavLock
 * 首先先到IPV6網站查一下有無IPV6
 * [IPV6](https://test-ipv6.com/index.html.zh_TW)
 
-![pic1]()
+![pic1](https://github.com/www-abcdefg/centos/blob/main/linux3%E8%87%AA%E5%8B%95%E5%8C%96%E9%81%8B%E7%B6%AD/pic/week1/pic1.png)
 
 * 虛擬機設定 -> 網路設為 橋接式的網路
 * 如果要用IPV6去搜尋網址請用中括號刮起來

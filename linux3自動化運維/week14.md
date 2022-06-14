@@ -16,11 +16,11 @@ docker run -d --name=grafana -p 3000:3000 grafana:7.5.15
 * 開啟瀏覽器輸入http://IP:3000登入，預設的帳號密碼都是admin
 * 左側齒輪(configuration)找到 Data source選擇 
 * 再點選Add data source
-![Grafana1]()
+![Grafana1](https://github.com/www-abcdefg/centos/blob/main/linux3%E8%87%AA%E5%8B%95%E5%8C%96%E9%81%8B%E7%B6%AD/pic/grafana1.png)
 
 * 點選Prometheus
 
-![Grafana2]()
+![Grafana2](https://github.com/www-abcdefg/centos/blob/main/linux3%E8%87%AA%E5%8B%95%E5%8C%96%E9%81%8B%E7%B6%AD/pic/grafana2.png)
 
 
 * 在http 的URL 輸入http://192.168.56.101:9090(其他皆為預設)
@@ -32,11 +32,11 @@ docker run -d --name=grafana -p 3000:3000 grafana:7.5.15
 * 左側+的符號選到Dashboard -> add a new panel
 * 找到 Data source選擇 Prometheus如下圖
 
-![Grafana繪圖]()
+![Grafana繪圖](https://github.com/www-abcdefg/centos/blob/main/linux3%E8%87%AA%E5%8B%95%E5%8C%96%E9%81%8B%E7%B6%AD/pic/grafana%E7%B9%AA%E5%9C%96.png)
 
 * 找到query的Meteics browser 輸入 httpd_status_centos7_2 在案Run query 
 
-![Grafana繪圖1]()
+![Grafana繪圖1](https://github.com/www-abcdefg/centos/blob/main/linux3%E8%87%AA%E5%8B%95%E5%8C%96%E9%81%8B%E7%B6%AD/pic/grafana%E7%B9%AA%E5%9C%961.png)
 
 * 點選save進行儲存 就可形成圖表
 
@@ -46,17 +46,17 @@ docker run -d --name=grafana -p 3000:3000 grafana:7.5.15
 * 在網頁的line找到 -> 管理登入服務 -> 發行權杖 -> 複製權杖 
 * 左側到鈴鐺圖示(Alerting) 選擇 Notification channels -> add channel->type 下拉選單選擇 LINE 把權杖輸入至Token name 輸入 LineNotify ->  按test 看是否跳出訊息 跳出則為成功
 
-![Grafana警報]()
+![Grafana警報](https://github.com/www-abcdefg/centos/blob/main/linux3%E8%87%AA%E5%8B%95%E5%8C%96%E9%81%8B%E7%B6%AD/pic/Grafana%E8%AD%A6%E5%A0%B1.png)
 
 * 按 search 找到 剛才創建的面板 點選進入 後再點選Edit 
 
-![Grafana警報1]()
+![Grafana警報1](https://github.com/www-abcdefg/centos/blob/main/linux3%E8%87%AA%E5%8B%95%E5%8C%96%E9%81%8B%E7%B6%AD/pic/Grafana%E8%AD%A6%E5%A0%B11.png)
 
 * 進入Edit後 找到Alert -> Create Alert
 * WHEN 選擇last() OF query(A,10s,now) IS BELOW 0.9  
 * Message 選擇 LineNotify 
 
-![Grafana警報2]()
+![Grafana警報2](https://github.com/www-abcdefg/centos/blob/main/linux3%E8%87%AA%E5%8B%95%E5%8C%96%E9%81%8B%E7%B6%AD/pic/Grafana%E8%AD%A6%E5%A0%B12.png)
 
 ## Ansible
 * 先做無密碼登入，方便管理及維護
